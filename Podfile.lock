@@ -1,0 +1,146 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AMapFoundation-NO-IDFA (1.5.9)
+  - AMapLocation-NO-IDFA (2.6.3):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapSearch-NO-IDFA (7.1.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - DACircularProgress (2.3.1)
+  - dsBridge (3.0.6)
+  - EaseUI (3.5.3):
+    - Hyphenate (~> 3.5.3)
+    - MJRefresh (~> 3.1.0)
+    - MWPhotoBrowser (~> 2.1.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - HUPhotoBrowser (1.4.5):
+    - SVProgressHUD
+  - Hyphenate (3.5.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.17)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - "SDWebImage (!= 3.7.2, ~> 3.7)"
+  - PLPlayerKit (3.4.3):
+    - PLPlayerKit/universal (= 3.4.3)
+  - PLPlayerKit/universal (3.4.3)
+  - Protobuf (3.9.2)
+  - SAMCategories (0.5.2)
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+  - SocketRocket (0.5.1)
+  - SSZipArchive (2.2.2)
+  - SVGAPlayer (2.3.5):
+    - SVGAPlayer/Core (= 2.3.5)
+    - SVGAPlayer/ProtoFiles (= 2.3.5)
+  - SVGAPlayer/Core (2.3.5):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.3.5):
+    - Protobuf (~> 3.4)
+  - SVProgressHUD (2.2.5)
+  - WechatOpenSDK (1.8.5)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - AMapLocation-NO-IDFA
+  - AMapSearch-NO-IDFA
+  - dsBridge
+  - "EaseUI (from `git@legitlab.letv.cn:Shanyin/easeUI-custom-iOS.git`)"
+  - FMDB
+  - HUPhotoBrowser
+  - Hyphenate
+  - Masonry
+  - PLPlayerKit (from `http://legitlab.letv.cn/gfw/PodSpec/raw/master/PLPlayerKit-Universal-3.4.3.podspec`)
+  - Protobuf (= 3.9.2)
+  - SAMCategories
+  - SocketRocket
+  - SSZipArchive
+  - SVGAPlayer
+  - WechatOpenSDK (= 1.8.5)
+  - YYModel
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - AFNetworking
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - DACircularProgress
+    - dsBridge
+    - FMDB
+    - HUPhotoBrowser
+    - Hyphenate
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MWPhotoBrowser
+    - Protobuf
+    - SAMCategories
+    - SDWebImage
+    - SocketRocket
+    - SSZipArchive
+    - SVGAPlayer
+    - SVProgressHUD
+    - WechatOpenSDK
+    - YYModel
+
+EXTERNAL SOURCES:
+  EaseUI:
+    :git: "git@legitlab.letv.cn:Shanyin/easeUI-custom-iOS.git"
+  PLPlayerKit:
+    :podspec: http://legitlab.letv.cn/gfw/PodSpec/raw/master/PLPlayerKit-Universal-3.4.3.podspec
+
+CHECKOUT OPTIONS:
+  EaseUI:
+    :commit: cc404b9692eb8e38d869635e746ae42ebc7098b1
+    :git: "git@legitlab.letv.cn:Shanyin/easeUI-custom-iOS.git"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AMapFoundation-NO-IDFA: ef7c0cc87fd2d942b92483d6bbf86e494f17b971
+  AMapLocation-NO-IDFA: f22a480573aa18c521946f13d49521f042a7dca6
+  AMapSearch-NO-IDFA: 439cf79b729210a33431cfa65995b59184d0f388
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  dsBridge: 48b62ee8a411ad601a88d6f6c8cf6cb634b206b7
+  EaseUI: 3bb4554d25fbbac5f7369e4393a9bab9ea09a689
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  HUPhotoBrowser: 87a8333c111a4e71ebf5400bf66d0eeb522c0098
+  Hyphenate: 396b936de5b3d68ec266c4bb9078e3ec95a45f31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  PLPlayerKit: 5eecac081fbf4dc88a142887f82c4095d9095887
+  Protobuf: 67fb42ba613def994e61854de2b3164f13790cc4
+  SAMCategories: bf8287f7961a0b343168d1fee16338dc1626ea39
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+  SVGAPlayer: bae4048710c948dc4de98971e35207d3bbed85ad
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  WechatOpenSDK: 9b15110aba1d502456d8e83677357e6437f2e751
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: bb8d77a7c31e5d71c1829daaff8fe17e77886cbc
+
+COCOAPODS: 1.8.0

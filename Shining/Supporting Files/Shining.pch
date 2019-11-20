@@ -1,0 +1,71 @@
+//
+//  Shining.pch
+//  Shining
+//
+//  Created by 鹏飞 季 on 2019/2/21.
+//  Copyright © 2019年 mengxiangjian. All rights reserved.
+//
+
+#ifndef Shining_pch
+#define Shining_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <YYModel/YYModel.h>
+//#import <UMCommon/UMCommon.h>
+//#import <UMCommonLog/UMCommonLogHeaders.h>
+//#import <UMAnalytics/MobClick.h>
+#import "NSBundle+SYLocalBundle.h"
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <UIImageView+WebCache.h>
+#import <UIImageView+AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
+#import "CommonUIDefine.h"
+#import "SYDataCenterDefine.h"
+#import "EaseUI.h"
+#import "CommonNavigationController.h"
+#import "CommonColorDefine.h"
+#import "IMGlobalVariables.h"
+#import "Masonry.h"
+#import "UIViewController+SearchController.h"
+#import "UserProfileManager.h"
+#import "SYGlobalDefines.h"
+#import "NSString+SYAES.h"
+#import "SYNetCommonManager.h"
+#import "SYGlobalDefines.h"
+#import "NSString+SYExtension.h"
+#import "SYSettingManager.h"
+#import <SAMCategories/SAMCategories.h>
+#import "SYUtil.h"
+#import "NSObject+SYObjectEmpty.h"
+#import "UIColor+SYExtension.h"
+#import "UIView+SYExtension.h"
+#import "UIView+CWStatus.h"
+#import "NSArray+SYSafe.h"
+#import "NSDictionary+SYSafe.h"
+#import "NSMutableArray+SYSafe.h"
+#import "NSMutableDictionary+SYSafe.h"
+#import "NSObject+SYImpChangeTool.h"
+#import "SYNetworkReachability.h"
+#import "SYSigleCase.h"
+#import "UIViewController+SYDataTracker.h"
+#import "UIViewController+SYExtension.h"
+#import "UIViewController+StatusBar.h"
+#import "UIImage+SYBunldeImg.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <MJRefresh/MJRefresh.h>
+#import <UIButton+AFNetworking.h>
+#import "SYPopUpWindows.h"
+#import "SDImageCache.h"
+#import "SYVoiceRoomEMManager.h"
+#import "SYNoNetworkView.h"
+#import "SYDataEmptyView.h"
+#import "SYDataErrorView.h"
+#import "SYCommonTopNavigationBar.h"
+#import "SYVoiceChatRoomManager.h"
+#import "TokenIO.h"
+#import "SYWebConnectonManager.h"
+
+#endif /* Shining_pch */
