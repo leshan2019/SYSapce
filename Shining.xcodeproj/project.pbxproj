@@ -210,7 +210,6 @@
 		6526B89D221BEC8B0013D6D0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6526B89C221BEC8B0013D6D0 /* Accelerate.framework */; };
 		65291F6922327E87000F4C46 /* SYVoiceChatRoomInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65291F6822327E87000F4C46 /* SYVoiceChatRoomInfoViewModel.m */; };
 		65296E192269C84A00ADEF9D /* SYVoiceRoomNavTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65296E182269C84A00ADEF9D /* SYVoiceRoomNavTitleView.m */; };
-		6538CCE52223BC6E00EE9F8D /* AgoraSigKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6538CCE42223BC6E00EE9F8D /* AgoraSigKit.framework */; };
 		6538CCE82223BD1000EE9F8D /* SYSignalingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6538CCE72223BD1000EE9F8D /* SYSignalingManager.m */; };
 		6538CCEB2223BD3500EE9F8D /* SYMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6538CCEA2223BD3500EE9F8D /* SYMessageManager.m */; };
 		6538CCEF2223CD8700EE9F8D /* SYSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6538CCEE2223CD8700EE9F8D /* SYSettingManager.m */; };
@@ -476,7 +475,6 @@
 		835A6282232277D60096B96F /* IFMMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 835A627E232277D60096B96F /* IFMMenu.m */; };
 		83627854237A632B00FB8F03 /* SYShineIncomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83627853237A632B00FB8F03 /* SYShineIncomeModel.m */; };
 		83627857237A87C000FB8F03 /* MyShineIncomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83627856237A87C000FB8F03 /* MyShineIncomeView.m */; };
-		83669D572223D5FB006FAB3D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83669D552223D4F5006FAB3D /* Parse.framework */; };
 		83669D592223D654006FAB3D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83669D582223D654006FAB3D /* Bolts.framework */; };
 		83712C6E2338B16F00FAD769 /* SYDayTaskListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83712C6D2338B16F00FAD769 /* SYDayTaskListCell.m */; };
 		8378D260222FFE4600654491 /* SYChatUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8378D25F222FFE4500654491 /* SYChatUserInfoView.m */; };
@@ -988,7 +986,6 @@
 		65291F6822327E87000F4C46 /* SYVoiceChatRoomInfoViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYVoiceChatRoomInfoViewModel.m; sourceTree = "<group>"; };
 		65296E172269C84A00ADEF9D /* SYVoiceRoomNavTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYVoiceRoomNavTitleView.h; sourceTree = "<group>"; };
 		65296E182269C84A00ADEF9D /* SYVoiceRoomNavTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYVoiceRoomNavTitleView.m; sourceTree = "<group>"; };
-		6538CCE42223BC6E00EE9F8D /* AgoraSigKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraSigKit.framework; sourceTree = "<group>"; };
 		6538CCE62223BD1000EE9F8D /* SYSignalingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYSignalingManager.h; sourceTree = "<group>"; };
 		6538CCE72223BD1000EE9F8D /* SYSignalingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYSignalingManager.m; sourceTree = "<group>"; };
 		6538CCE92223BD3500EE9F8D /* SYMessageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYMessageManager.h; sourceTree = "<group>"; };
@@ -1519,7 +1516,6 @@
 		83627853237A632B00FB8F03 /* SYShineIncomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYShineIncomeModel.m; sourceTree = "<group>"; };
 		83627855237A87C000FB8F03 /* MyShineIncomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyShineIncomeView.h; sourceTree = "<group>"; };
 		83627856237A87C000FB8F03 /* MyShineIncomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyShineIncomeView.m; sourceTree = "<group>"; };
-		83669D552223D4F5006FAB3D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		83669D582223D654006FAB3D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		83712C6C2338B16F00FAD769 /* SYDayTaskListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYDayTaskListCell.h; sourceTree = "<group>"; };
 		83712C6D2338B16F00FAD769 /* SYDayTaskListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYDayTaskListCell.m; sourceTree = "<group>"; };
@@ -1731,7 +1727,6 @@
 				1E894CF923191598003701B7 /* CoreMotion.framework in Frameworks */,
 				6526B899221BEC760013D6D0 /* AVFoundation.framework in Frameworks */,
 				83A623B3222B8BF4000B32F6 /* libWeChatSDK.a in Frameworks */,
-				83669D572223D5FB006FAB3D /* Parse.framework in Frameworks */,
 				E434199222DDC61B00624118 /* StoreKit.framework in Frameworks */,
 				65B543C7221D5817008E40A6 /* libsqlite3.tbd in Frameworks */,
 				65B543C5221D5811008E40A6 /* libz.tbd in Frameworks */,
@@ -1739,7 +1734,6 @@
 				65B543C3221D57FD008E40A6 /* SystemConfiguration.framework in Frameworks */,
 				6526B89D221BEC8B0013D6D0 /* Accelerate.framework in Frameworks */,
 				6526B89B221BEC800013D6D0 /* AudioToolbox.framework in Frameworks */,
-				6538CCE52223BC6E00EE9F8D /* AgoraSigKit.framework in Frameworks */,
 				E4894841224E27050065DC3D /* libLepaySDK.a in Frameworks */,
 				6526B897221BEC700013D6D0 /* libresolv.tbd in Frameworks */,
 				6526B895221BEC620013D6D0 /* CoreTelephony.framework in Frameworks */,
@@ -2513,8 +2507,6 @@
 				656FD52B2296A27B001F724F /* FXAnimationEngine */,
 				3FBC754E233DBE66004526F2 /* SocketIO.framework */,
 				83669D582223D654006FAB3D /* Bolts.framework */,
-				83669D552223D4F5006FAB3D /* Parse.framework */,
-				6538CCE42223BC6E00EE9F8D /* AgoraSigKit.framework */,
 				6526B88E221BEB470013D6D0 /* AgoraAudioKit.framework */,
 			);
 			path = 3rd;
